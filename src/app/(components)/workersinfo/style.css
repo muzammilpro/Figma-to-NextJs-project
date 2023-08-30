@@ -1,0 +1,19 @@
+/* .hover-effect:hover .hover-target {
+    right: 0;
+    transition: 2s;
+  }
+  .hover-target{
+    transition: right 0.2s ease-in-out,
+  }
+   */
+   /* style.css */
+.hover-effect:hover .hover-target {
+    right: 0;
+    transition: right 2s ease-in-out;
+  }
+  
+  .hover-target {
+    right: -100%;
+    transition: right 0.2s ease-in-out;
+  }
+  
